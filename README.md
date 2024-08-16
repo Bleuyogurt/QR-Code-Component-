@@ -1,1 +1,1 @@
-qr-code-component-main- solution/images/Solution-Preview.png
+A QR code component task from Frontend Mentor 
