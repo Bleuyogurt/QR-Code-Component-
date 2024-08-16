@@ -1,0 +1,60 @@
+:root {
+  ---background-color: #d6e2f0;
+  ---text-primary-color: #68778d;
+  ---text-secondary-color: #1f3251;
+  ---white-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(---background-color);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: var(---white-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 20rem;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+  border-radius: 0.5rem;
+}
+
+.text-container {
+  padding-inline: 1rem;
+  width: fit-content;
+  text-align: center;
+}
+
+.text-container h1 {
+  color: var(---text-secondary-color);
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+
+.text-container p {
+  color: var(---text-primary-color);
+  font-size: 0.925rem;
+  padding-top: 1rem;
+  line-height: 1.4rem;
+}
